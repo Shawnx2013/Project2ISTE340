@@ -1,0 +1,478 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    line-height: 1.6em;
+}
+
+/* menu */
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li{
+    float: right;
+    text-align: center;
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+
+#navTitle{
+    font-weight: 600;
+    float: left;
+    color: white;
+}
+
+#navTitle a:hover{
+    text-decoration: none;
+}
+
+/***** GENERAL FORMAT ****/
+#spinner{
+    position: relative;
+    top: 0;
+    margin-left: 50%;
+}
+
+.hiddenContent{
+    display: none;
+    padding: 6px;
+}
+
+h1{
+    font-weight: 600;
+}
+
+h2, h3{
+    font-weight: 500;
+}
+
+#bigTitle{
+    text-align: center;
+    color: snow;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    line-height: 2.3em;
+}
+
+#bigTitle>h1, #bigTitle>h3{
+    position: absolute;              
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bigTitle h3{
+    top: 60%;
+}
+
+span{
+    color: orange;
+}
+/**** END OF GENERAL FORMAT ****/
+
+/***** ABOUT ****/
+#about{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: snow;
+}
+
+#aboutTitle{
+    text-align: center;
+}
+
+#aboutDescription{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#aboutQuote{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-style: italic;
+}
+
+#quoteAuthor{
+    margin-left: 100px;
+}
+/*** END OF ABOUT ***/
+
+/***** UNDERGRAD *****/
+#undergraduate{
+    width: 100%;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+#undergraduate h1{
+    text-align: center;
+}
+
+.majors{
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    vertical-align: top;
+}
+/*** END OF UNDERGRAD ***/
+
+/***** GRAD *****/
+#graduate{
+    width: 100%;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: snow;
+}
+
+.gradDegree{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    vertical-align: top;
+}
+
+#certificates{
+    text-align: center;
+}
+/*** END OF GRAD ***/
+
+/**** MINOR ****/
+#minors{
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.minorTitle{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.minor{
+    display: inline-block;
+    margin: 10px;
+    background-color: #f37221;
+    border-radius: 30px;
+    width: 200px;
+    height: 250px;
+    vertical-align: top;
+    transition: opacity 0.8s; 
+}
+
+.minor:hover{
+    opacity: 0.6;
+}
+
+#minors a div p{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 23px;
+}
+
+/**** PEOPLE ****/
+#people{
+    color: white;
+    width: 100%;
+    text-align: center; 
+}
+
+#peopleTabs{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ppl{
+    display: inline-block;
+    font-size: 0.8em;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 2px;
+    width: 200px;
+    height: 150px;
+    vertical-align: top;
+    background-color: #FFC27A;
+    transition: opacity 0.8s;  
+}
+
+.ppl:hover{
+    opacity: 0.8;
+}
+
+.pplImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pplInfo, .pplName{
+    text-align: center;
+}
+
+.contactInfo{
+    text-align: center;
+}
+
+.contactInfo span{
+    text-decoration: none !important;
+}
+/***** END OF PEOPLE ****/
+
+/**** EMPLOYMENT ****/
+#introduction{
+    color: snow;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#introduction h2 h3{
+    text-align: center;
+}
+
+#degreeStats{
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: snow;
+    width: 100%;
+    text-align: center;
+}
+
+#degreeStats > h2{
+    padding-bottom: 12px;
+    font-size: 2em;
+}
+
+.stats{
+    display: inline-block;
+    border: 3px solid orange;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    vertical-align: top;
+}
+
+.stats h1, .stats p{
+    position: relative;
+    top: 40px;
+}
+
+.stats h1{
+    color: #F76902;
+}
+
+#box{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#box p{
+    display: inline-block;
+    margin: .8em;
+    color: #FFA447;
+}
+
+#employers, #careers{
+    color: snow;
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#map{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: snow;
+    position: relative;
+}
+
+#imap {
+    height: 600px;
+    width: 1000px;
+}
+
+#tables{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#tables .buttons{
+    margin: 1em;
+    background-color: orange;
+    font-weight: 500;
+}
+/***** END OF EMPLOYMENT *****/
+
+/***** RESEARCH ****/
+#research{
+    text-align: center;
+}
+
+#research h1{
+    color: snow;
+}
+
+#interestArea{
+    color: snow;
+    padding-bottom: 14px;
+}
+
+.interests{
+    display: inline-block;
+    margin: 10px;
+    padding: 6px;
+    background-color: #f37221;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+    transition: opacity 0.8s;    
+}
+
+.interests:hover{
+    opacity: 0.7;
+}
+
+.interests p{
+    font-size: 1.2em;
+    position: relative;
+    top: 40px;
+}
+
+.interestName{
+    text-align: center;
+    font-weight: 700;
+}
+
+#facultyName{
+    padding-top: 10px;
+    background-color: snow;
+    padding-bottom: 7px;
+}
+
+.faculty{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    padding: 5px;
+    transition: opacity 0.8s; 
+}
+
+.researchPic{
+    width: 170px;
+    height: 170px;
+    border-radius: 20%;
+}
+
+.faculty:hover{
+    opacity: 0.7;
+}
+/***** END OF RESEARCH *****/
+
+/***** RESOURCES ****/
+#resources{
+	margin: 0 auto;
+	text-align: center;
+}
+#resources h2, #resources h3{
+	color: snow;
+
+}
+
+.resourcebox{
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+    height: 200px;
+	border-radius: 10px;
+	margin: 10px;
+	background-color: orange;
+}
+
+/**** FOOTER ****/
+#footer{
+    width: 100%;
+    text-align: center;
+    background: snow;
+    padding-bottom: 6px;
+}
+
+#footer h1{
+    padding-top: 20px;
+}
+
+#footer div > p{
+    font-family: 'Lato', sans-serif;
+}
+
+.socialIcons{
+    margin: 7px;
+    font-size: 3em;
+    display: inline-block;
+    color: #f37221;
+    transition: opacity 1s; 
+}
+
+.socialIcons:hover{
+    opacity: 0.5;
+}
+
+#quickLinks a{
+    display: inline-block;
+    margin: 5px;
+}
+
+
+@media only screen and (max-width: 750px){
+    #map{
+        display: none;
+    }
+    #bigTitle>h3{
+        display: none;
+    }
+}
